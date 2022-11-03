@@ -1,0 +1,27 @@
+section{
+    .image-blockFlex{
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        align-items: baseline;
+        padding: 4rem 0;
+        .image-step{
+            width: calc(100% / 5.5 );
+            display: flex;
+            flex-direction: column;
+            .image-shadow{
+                width: 100%;
+                }
+            .image-content{
+                padding-left: 3px;
+                font-weight: 600;
+                padding-top: 1rem;
+                letter-spacing: 1px;
+            }
+        }
+        .image-icon{
+            width: calc(100% / 5.5 / 3);
+            max-width: 20px;
+        }
+    }
+}
