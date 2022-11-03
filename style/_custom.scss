@@ -28,6 +28,9 @@ img{
     background-color: #e8e8e7;
     font-weight: bolder;
     color: #404040;
+    @media (max-width:996px) {
+        padding: 0 2rem;
+    }
 }
 .container{
     max-width: 80%;

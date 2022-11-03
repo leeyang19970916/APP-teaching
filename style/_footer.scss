@@ -4,12 +4,20 @@ footer{
         display: flex;
         justify-content:space-between;
         align-items: baseline;
-        padding: 4rem 0;
+        padding: 4rem 0 2rem 0;
         margin: 0 auto;
+        flex-wrap: wrap;
+        @media (max-width:996px) {
+            width: 100%;
+            padding: 2rem 0 0 0;
+        }
         .image-step{
             width: calc(100% / 4 );
             display: flex;
             flex-direction: column;
+            @media (max-width:996px) {
+                width: 30%;
+            }
             .image-shadow{
                 width: 100%;
                 }
@@ -18,11 +26,24 @@ footer{
                 font-weight: 600;
                 padding-top: 1rem;
                 letter-spacing: 1px;
+                padding-bottom: 1.5rem;
+                @media (max-width:996px) {
+                    padding: 1rem 0;
+                }
             }
         }
         .image-icon{
             width: calc(100% / 4 / 2);
             max-width: 20px;
+            @media (max-width:996px) {
+                width: 5%;
+            }
+            &.image-icon-middle{
+                display: none;
+                @media (max-width:996px){
+                    display: none;
+                }
+            }
             // padding: 0 5px;
         }
     }

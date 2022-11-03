@@ -11171,6 +11171,11 @@ img {
   font-weight: bolder;
   color: #404040;
 }
+@media (max-width: 996px) {
+  .title-name {
+    padding: 0 2rem;
+  }
+}
 
 .container {
   max-width: 80%;
@@ -11349,8 +11354,16 @@ footer .image-blockFlex {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  padding: 4rem 0;
+  padding: 4rem 0 2rem 0;
   margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media (max-width: 996px) {
+  footer .image-blockFlex {
+    width: 100%;
+    padding: 2rem 0 0 0;
+  }
 }
 footer .image-blockFlex .image-step {
   width: 25%;
@@ -11362,6 +11375,11 @@ footer .image-blockFlex .image-step {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+@media (max-width: 996px) {
+  footer .image-blockFlex .image-step {
+    width: 30%;
+  }
+}
 footer .image-blockFlex .image-step .image-shadow {
   width: 100%;
 }
@@ -11370,8 +11388,27 @@ footer .image-blockFlex .image-step .image-content {
   font-weight: 600;
   padding-top: 1rem;
   letter-spacing: 1px;
+  padding-bottom: 1.5rem;
+}
+@media (max-width: 996px) {
+  footer .image-blockFlex .image-step .image-content {
+    padding: 1rem 0;
+  }
 }
 footer .image-blockFlex .image-icon {
   width: 12.5%;
   max-width: 20px;
+}
+@media (max-width: 996px) {
+  footer .image-blockFlex .image-icon {
+    width: 5%;
+  }
+}
+footer .image-blockFlex .image-icon.image-icon-middle {
+  display: none;
+}
+@media (max-width: 996px) {
+  footer .image-blockFlex .image-icon.image-icon-middle {
+    display: none;
+  }
 }
