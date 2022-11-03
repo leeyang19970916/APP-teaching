@@ -11176,6 +11176,29 @@ img {
   max-width: 80%;
   padding: 0;
 }
+@media (max-width: 996px) {
+  .container {
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 996px) {
+  .py-5 {
+    padding: 1.5rem 0 !important;
+  }
+}
+
+@media (max-width: 996px) {
+  .pt-5 {
+    padding-top: 1.5rem !important;
+  }
+}
+
+@media (max-width: 996px) {
+  .pb-5 {
+    padding-bottom: 1.5rem !important;
+  }
+}
 
 header {
   display: -webkit-box;
@@ -11188,6 +11211,11 @@ header {
       -ms-flex-align: center;
           align-items: center;
   height: 700px;
+}
+@media (max-width: 996px) {
+  header {
+    height: 400px;
+  }
 }
 header .logo {
   width: 100px;
@@ -11220,10 +11248,15 @@ header .header-title .h6 {
   font-size: 1vw;
   line-height: 1.5;
 }
+@media (max-width: 996px) {
+  header .header-title .h6 {
+    font-size: 1.5vw;
+  }
+}
 header .header-content {
   height: 100%;
   width: 35%;
-  padding: 5rem 3rem;
+  padding: 8rem 5rem;
   font-size: 1.2vw;
   letter-spacing: 1px;
   display: -webkit-box;
@@ -11236,6 +11269,12 @@ header .header-content {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+@media (max-width: 996px) {
+  header .header-content {
+    font-size: 1.5vw;
+    padding: 1rem;
+  }
 }
 
 section .image-blockFlex {
@@ -11250,6 +11289,15 @@ section .image-blockFlex {
       -ms-flex-align: baseline;
           align-items: baseline;
   padding: 4rem 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media (max-width: 996px) {
+  section .image-blockFlex {
+    padding: 2.5rem 0 0 0;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
 section .image-blockFlex .image-step {
   width: 18.1818181818%;
@@ -11261,6 +11309,11 @@ section .image-blockFlex .image-step {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+@media (max-width: 996px) {
+  section .image-blockFlex .image-step {
+    width: 33.3333333333%;
+  }
+}
 section .image-blockFlex .image-step .image-shadow {
   width: 100%;
 }
@@ -11270,9 +11323,19 @@ section .image-blockFlex .image-step .image-content {
   padding-top: 1rem;
   letter-spacing: 1px;
 }
+@media (max-width: 996px) {
+  section .image-blockFlex .image-step .image-content {
+    padding-bottom: 1.5rem;
+  }
+}
 section .image-blockFlex .image-icon {
   width: 6.0606060606%;
   max-width: 20px;
+}
+@media (max-width: 996px) {
+  section .image-blockFlex .image-icon.image-icon-middle {
+    display: none;
+  }
 }
 
 footer .image-blockFlex {

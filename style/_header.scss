@@ -3,6 +3,9 @@ header{
     justify-content: center;
     align-items: center;
     height: 700px;
+    @media (max-width:996px) {
+        height: 400px;
+    }
     .logo{
         width: 100px;
     }
@@ -23,16 +26,33 @@ header{
             letter-spacing: 3px;
             font-size: 1vw;
             line-height: 1.5;
+            @media (max-width:996px) {
+                font-size: 1.5vw;
+            }
         }
     }
     .header-content{
         height: 100%;
         width: 35%;
-        padding: 5rem 3rem;
+        padding: 8rem 5rem;
         font-size: 1.2vw;
         letter-spacing: 1px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        @media (max-width:996px) {
+            font-size: 1.5vw;
+            padding: 1rem;
+        }
     }
 }
+// 996
+// 767
+// 576
+// @media (max-width:576px) {
+//     width: 25%;
+//     margin: 0 0 0 1rem;
+// }
+// @media (min-width: 767px) and (max-width: 1200px) {
+//     width: 75%;
+// }
