@@ -11332,7 +11332,36 @@ header .header-content {
 @media (max-width: 576px) {
   header .header-content {
     width: 100%;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0rem;
+    font-size: 1.5vw;
+  }
+}
+@media (max-width: 576px) {
+  header .header-content .header-content-mrginAuto {
+    width: 85%;
+    margin: 0 auto;
+    font-size: 2vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    overflow: hidden;
+    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+header .header-content .header-content-mrginAuto.py-2 {
+  padding: 0 !important;
+}
+@media (max-width: 576px) {
+  header .header-content .header-content-mrginAuto.py-2 {
+    padding: 0.5rem 0 !important;
   }
 }
 
@@ -11377,7 +11406,7 @@ section .image-blockFlex {
   }
 }
 section .image-blockFlex .image-step {
-  width: 18.1818181818%;
+  width: 22%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11410,6 +11439,7 @@ section .image-blockFlex .image-step .image-content {
   font-weight: 600;
   padding-top: 1rem;
   letter-spacing: 1px;
+  font-size: 1rem;
 }
 @media (max-width: 1200px) {
   section .image-blockFlex .image-step .image-content {
@@ -11417,7 +11447,7 @@ section .image-blockFlex .image-step .image-content {
   }
 }
 section .image-blockFlex .image-icon {
-  width: 6.0606060606%;
+  width: 4%;
   max-width: 20px;
 }
 @media (max-width: 1200px) {
@@ -11442,7 +11472,7 @@ section .image-blockFlex .image-icon {
 }
 
 footer .image-blockFlex {
-  width: 75%;
+  width: 85%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11511,7 +11541,7 @@ footer .image-blockFlex .image-step .image-shadow {
   width: 100%;
 }
 footer .image-blockFlex .image-step .image-content {
-  padding-left: 3px;
+  padding-left: 4px;
   font-weight: 600;
   padding-top: 1rem;
   letter-spacing: 1px;
@@ -11525,9 +11555,8 @@ footer .image-blockFlex .image-step .image-content {
 }
 @media (max-width: 576px) {
   footer .image-blockFlex .image-step .image-content {
-    padding: 0.5rem 0;
-    margin: 0 auto;
-    font-size: 0.75rem;
+    padding: 0.5rem 4px;
+    font-size: 1rem;
   }
 }
 footer .image-blockFlex .image-icon {
