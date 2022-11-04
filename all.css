@@ -11474,6 +11474,7 @@ section .image-blockFlex .image-step .image-content {
             justify-content: center;
     overflow: hidden;
     letter-spacing: 0px;
+    padding-left: 0px;
   }
 }
 section .image-blockFlex .image-icon {
@@ -11609,6 +11610,7 @@ footer .image-blockFlex .image-step .image-content {
             justify-content: center;
     overflow: hidden;
     letter-spacing: 0px;
+    padding-left: 0px;
   }
 }
 footer .image-blockFlex .image-icon {
