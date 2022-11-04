@@ -11196,12 +11196,13 @@ img {
 }
 
 .container {
-  max-width: 80%;
+  max-width: 90%;
   padding: 0;
 }
 @media (max-width: 1200px) {
   .container {
-    max-width: 95%;
+    max-width: 100%;
+    padding: 0 15px;
   }
 }
 
@@ -11241,6 +11242,26 @@ img {
   .image-shadow {
     width: 80% !important;
   }
+}
+
+.image-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  letter-spacing: 0px !important;
 }
 
 header {

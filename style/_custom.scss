@@ -47,10 +47,11 @@ img{
     }
 }
 .container{
-    max-width: 80%;
+    max-width: 90%;
     padding: 0;
     @media (max-width:1200px) {
-        max-width: 95%;
+        max-width: 100%;
+        padding: 0 15px;
     }
 }
 .py-5{
@@ -82,3 +83,15 @@ img{
         width: 80% !important;
     }
     }
+.image-content{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    overflow: hidden;
+    flex-direction: row !important;
+    letter-spacing: 0px !important;
+    // @media (max-width:1800px) {
+
+    // }
+}
