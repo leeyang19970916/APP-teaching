@@ -28,29 +28,47 @@ img{
     background-color: #e8e8e7;
     font-weight: bolder;
     color: #404040;
-    @media (max-width:996px) {
+    @media (max-width:1200px) {
         padding: 0 2rem;
+    }
+    @media (max-width:750px) {
+        font-size: 1.5rem;
+        padding: 0 0.5rem;
+    }
+    @media (max-width:567px) {
+        font-size: 1.2rem;
+        padding: 0;
+        top: -2px;
+    }
+    &.title-name-longName{
+        @media (max-width:567px) {
+            font-size: 1rem;
+        }
     }
 }
 .container{
     max-width: 80%;
     padding: 0;
-    @media (max-width:996px) {
+    @media (max-width:1200px) {
         max-width: 95%;
     }
 }
 .py-5{
-    @media (max-width:996px) {
+    @media (max-width:1200px) {
         padding: 1.5rem 0 !important;
+    }
+    @media (max-width:750px) {
+        padding: 1rem 0 !important;
     }
 }
 .pt-5{
-    @media (max-width:996px) {
+    @media (max-width:1200px) {
         padding-top: 1.5rem  !important;
     }
 }
 .pb-5{
-    @media (max-width:996px) {
+    @media (max-width:1200px) {
         padding-bottom: 1.5rem  !important;
     }
 }
+// 可能600就要變成一耶 650左右==

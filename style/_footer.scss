@@ -7,16 +7,31 @@ footer{
         padding: 4rem 0 2rem 0;
         margin: 0 auto;
         flex-wrap: wrap;
-        @media (max-width:996px) {
+        @media (max-width:1200px) {
             width: 100%;
             padding: 2rem 0 0 0;
+        }
+        @media (max-width:750px) {
+            justify-content: space-around;
+        }
+        @media (max-width:576px) {
+            flex-direction: column;
+            align-items: center;
+            padding-top: 1.5rem;
         }
         .image-step{
             width: calc(100% / 4 );
             display: flex;
             flex-direction: column;
-            @media (max-width:996px) {
+            @media (max-width:1200px) {
                 width: 30%;
+            }
+            @media (max-width:750px) {
+                width: 40%;
+            }
+            @media (max-width:576px){
+                width: 60%;
+                min-width: 200px;
             }
             .image-shadow{
                 width: 100%;
@@ -27,24 +42,40 @@ footer{
                 padding-top: 1rem;
                 letter-spacing: 1px;
                 padding-bottom: 1.5rem;
-                @media (max-width:996px) {
-                    padding: 1rem 0;
+                @media (max-width:1200px) {
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                }
+                @media (max-width:576px) {
+                    padding: 0.5rem 0;
+                    margin: 0 auto;
+                    font-size: 0.75rem;
                 }
             }
         }
         .image-icon{
             width: calc(100% / 4 / 2);
             max-width: 20px;
-            @media (max-width:996px) {
+            @media (max-width:1200px) {
                 width: 5%;
             }
-            &.image-icon-middle{
-                display: none;
-                @media (max-width:996px){
+            @media (max-width:576px) {
+                display: none !important;
+            }
+            &.image-icon-mid-dnone{
+                @media (max-width:750px) {
                     display: none;
                 }
             }
-            // padding: 0 5px;
+            &.image-icon-middle{
+                display: none;
+                @media (max-width:1200px){
+                    display: none;
+                }
+                @media (max-width:750px) {
+                    display: block;
+                }
+            }
         }
     }
 }
