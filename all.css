@@ -11277,7 +11277,7 @@ header .header-title {
 }
 @media (max-width: 1200px) {
   header .header-title {
-    width: 60%;
+    width: 50%;
   }
 }
 @media (max-width: 576px) {
@@ -11332,7 +11332,7 @@ header .header-content {
 }
 @media (max-width: 1200px) {
   header .header-content {
-    width: 40%;
+    width: 50%;
     font-size: 2vw;
     padding: 1rem;
   }
