@@ -11558,6 +11558,13 @@ footer .image-blockFlex {
     padding: 2rem 0 0 0;
   }
 }
+@media (max-width: 750px) {
+  footer .image-blockFlex {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
 @media (max-width: 576px) {
   footer .image-blockFlex {
     -webkit-box-orient: vertical;
