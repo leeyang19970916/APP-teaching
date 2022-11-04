@@ -11275,6 +11275,11 @@ header .header-title {
           align-items: center;
   padding: 3rem 0 3rem 0;
 }
+@media (max-width: 1200px) {
+  header .header-title {
+    width: 60%;
+  }
+}
 @media (max-width: 576px) {
   header .header-title {
     width: 100%;
@@ -11327,7 +11332,8 @@ header .header-content {
 }
 @media (max-width: 1200px) {
   header .header-content {
-    font-size: 1.5vw;
+    width: 40%;
+    font-size: 2vw;
     padding: 1rem;
   }
 }
@@ -11385,14 +11391,16 @@ section .image-blockFlex {
 @media (max-width: 1200px) {
   section .image-blockFlex {
     padding: 2.5rem 0 0 0;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 @media (max-width: 750px) {
   section .image-blockFlex {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding-top: 1.5rem;
   }
 }
@@ -11419,7 +11427,7 @@ section .image-blockFlex .image-step {
 }
 @media (max-width: 1200px) {
   section .image-blockFlex .image-step {
-    width: 33.3333333333%;
+    width: 40%;
   }
 }
 @media (max-width: 750px) {
@@ -11434,17 +11442,7 @@ section .image-blockFlex .image-step {
 }
 section .image-blockFlex .image-step .image-shadow {
   width: 100%;
-}
-@media (max-width: 576px) {
-  section .image-blockFlex .image-step .image-shadow {
-    width: 60%;
-    margin: 0 auto;
-  }
-}
-@media (max-width: 400px) {
-  section .image-blockFlex .image-step .image-shadow {
-    width: 80%;
-  }
+  margin: 0 auto;
 }
 section .image-blockFlex .image-step .image-content {
   padding-left: 4px;
@@ -11554,7 +11552,7 @@ footer .image-blockFlex .image-step {
 }
 @media (max-width: 1200px) {
   footer .image-blockFlex .image-step {
-    width: 30%;
+    width: 40%;
   }
 }
 @media (max-width: 750px) {
@@ -11570,17 +11568,7 @@ footer .image-blockFlex .image-step {
 }
 footer .image-blockFlex .image-step .image-shadow {
   width: 100%;
-}
-@media (max-width: 576px) {
-  footer .image-blockFlex .image-step .image-shadow {
-    width: 60%;
-    margin: 0 auto;
-  }
-}
-@media (max-width: 400px) {
-  footer .image-blockFlex .image-step .image-shadow {
-    width: 80%;
-  }
+  margin: 0 auto;
 }
 footer .image-blockFlex .image-step .image-content {
   padding-left: 4px;

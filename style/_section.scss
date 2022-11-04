@@ -8,10 +8,10 @@ section{
         flex-wrap: wrap;
         @media (max-width:1200px) {
             padding: 2.5rem 0 0 0;
-            justify-content: space-around;
+            justify-content: space-between;
         }
         @media (max-width:750px) {
-            justify-content: space-around;
+            justify-content: space-between;
             padding-top: 1.5rem;
         }
         @media (max-width:576px) {
@@ -24,7 +24,7 @@ section{
             display: flex;
             flex-direction: column;
             @media (max-width:1200px) {
-                width: calc(100% / 3 );
+                width: 40%;
             }
             @media (max-width:750px) {
                 width: 40%;
@@ -34,13 +34,14 @@ section{
             }
             .image-shadow{
                 width: 100%;
-                @media (max-width:576px){
-                    width: 60%;
-                    margin: 0 auto;
-                }
-                @media (max-width:400px){
-                    width: 80%;
-                }
+                margin: 0 auto;
+                // @media (max-width:576px){
+                //     width: 60%;
+                    
+                // }
+                // @media (max-width:400px){
+                //     width: 80%;
+                // }
                 }
             .image-content{
                 padding-left: 4px;
