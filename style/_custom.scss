@@ -71,4 +71,14 @@ img{
         padding-bottom: 1.5rem  !important;
     }
 }
-// 可能600就要變成一耶 650左右==
+.image-shadow{
+    width: 100%;
+    margin: 0 auto;
+    @media (max-width:576px){
+        width: 80% !important;
+        
+    }
+    @media (max-width:400px){
+        width: 80% !important;
+    }
+    }

@@ -11228,6 +11228,21 @@ img {
   }
 }
 
+.image-shadow {
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 576px) {
+  .image-shadow {
+    width: 80% !important;
+  }
+}
+@media (max-width: 400px) {
+  .image-shadow {
+    width: 80% !important;
+  }
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11552,7 +11567,7 @@ footer .image-blockFlex .image-step {
 }
 @media (max-width: 1200px) {
   footer .image-blockFlex .image-step {
-    width: 40%;
+    width: 30%;
   }
 }
 @media (max-width: 750px) {
