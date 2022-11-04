@@ -11299,6 +11299,12 @@ header .header-title .h6 {
 }
 @media (max-width: 1200px) {
   header .header-title .h6 {
+    font-size: 1.5vw;
+  }
+}
+@media (max-width: 576px) {
+  header .header-title .h6 {
+    padding: 0.5rem 0;
     font-size: 4vw;
   }
 }
