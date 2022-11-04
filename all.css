@@ -11274,7 +11274,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 700px;
+  height: 600px;
 }
 @media (max-width: 1200px) {
   header {
@@ -11352,7 +11352,7 @@ header .header-title .h6 {
 header .header-content {
   height: 100%;
   width: 35%;
-  padding: 8rem 5rem;
+  padding: 8rem 4rem;
   font-size: 1.2vw;
   letter-spacing: 1px;
   display: -webkit-box;

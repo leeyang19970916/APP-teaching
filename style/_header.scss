@@ -2,7 +2,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 600px;
     @media (max-width:1200px) {
         height: 400px;
     }
@@ -12,9 +12,6 @@ header{
     }
     .logo{
         width: 100px;
-        // @media (max-width:576px){
-        //     width: 100px;
-        // }
     }
     .header-title{
         height: 100%;
@@ -56,7 +53,7 @@ header{
     .header-content{
         height: 100%;
         width: 35%;
-        padding: 8rem 5rem;
+        padding: 8rem 4rem;
         font-size: 1.2vw;
         letter-spacing: 1px;
         display: flex;
