@@ -11257,11 +11257,6 @@ header {
 header .logo {
   width: 100px;
 }
-@media (max-width: 576px) {
-  header .logo {
-    width: 70px;
-  }
-}
 header .header-title {
   height: 100%;
   width: 65%;
@@ -11294,6 +11289,7 @@ header .header-title .h1 {
 @media (max-width: 576px) {
   header .header-title .h1 {
     padding: 0.5rem 0;
+    font-size: 6vw;
   }
 }
 header .header-title .h6 {
@@ -11303,7 +11299,7 @@ header .header-title .h6 {
 }
 @media (max-width: 1200px) {
   header .header-title .h6 {
-    font-size: 1.5vw;
+    font-size: 4vw;
   }
 }
 header .header-content {
@@ -11441,7 +11437,7 @@ section .image-blockFlex .image-step .image-shadow {
 }
 @media (max-width: 400px) {
   section .image-blockFlex .image-step .image-shadow {
-    width: 100%;
+    width: 80%;
   }
 }
 section .image-blockFlex .image-step .image-content {
@@ -11575,7 +11571,7 @@ footer .image-blockFlex .image-step .image-shadow {
 }
 @media (max-width: 400px) {
   footer .image-blockFlex .image-step .image-shadow {
-    width: 100%;
+    width: 80%;
   }
 }
 footer .image-blockFlex .image-step .image-content {
