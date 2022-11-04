@@ -11370,7 +11370,7 @@ header .header-content {
   header .header-content {
     width: 50%;
     font-size: 2vw;
-    padding: 1rem;
+    padding: 1rem 0rem 1rem 2rem;
   }
 }
 @media (max-width: 576px) {
